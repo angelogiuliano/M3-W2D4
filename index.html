@@ -4,10 +4,233 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>EpiJet</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="ms-5 container-fluid">
+        <a class="navbar-brand" href="#">
+          <img class="logo" src="./assets/0x0-removebg-preview.png" alt="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#offerte-settimana">Offerte della settimana</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#benvenuta-estate">Benvenuta estate</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-    
+    <div class="p-5 mb-4 bg-body-tertiary rounded-3">
+      <div class="container-fluid py-5">
+        <h1 class="display-5 fw-bold">EpiJet</h1>
+        <p class="col-md-8 fs-4">
+          Dove i tuoi voli diventano
+          <span class="text-decoration-underline">epici</span>
+        </p>
+      </div>
+    </div>
+
+    <div id="offerte-settimana" class="container ms-5">
+      <h3 class="">Offerte della settimana</h3>
+      <div class="row m-0 justify-content-between">
+        <div class="card col-sm-12 col-md-6 col-lg-3 p-0" style="width: 18rem">
+          <img
+            src="https://image.urlaubspiraten.de/1024/image/upload/v1603293335/mediavault_images/kpgd5r5ndko3tejyciwb.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Giza</h5>
+            <p class="card-text">
+              Circa 25 km a sud ovest del Cairo si trova la Necropoli di Giza,
+              famosa per ospitare le tre più famose piramidi egizie, quelle di
+              Cheope, di Chefren e di Micerino, oltre all'enigmatica Sfinge, il
+              cui volto rappresenta quasi certamente quello del sovrano Chefren.
+            </p>
+            <a href="#" class="btn btn-primary">Portami qui</a>
+          </div>
+        </div>
+
+        <div class="card col-sm-12 col-md-6 col-lg-3 p-0" style="width: 18rem">
+          <img
+            src="https://image.urlaubspiraten.de/1024/image/upload/v1638286821/Impressions%20and%20Other%20Assets/shutterstock_1959614719_itnqhr.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Zagabria</h5>
+            <p class="card-text">
+              La capitale della Croazia è spesso sottovalutata dai turisti, ma
+              in realtà questa città, situata al centro del paese, offre una
+              combinazione unica di fascino storico, cultura vivace e stile
+              moderno.
+            </p>
+            <a href="#" class="btn btn-primary">Portami qui</a>
+          </div>
+        </div>
+
+        <div class="card col-sm-12 col-md-6 col-lg-3 p-0" style="width: 18rem">
+          <img
+            src="https://image.urlaubspiraten.de/1024/image/upload/v1628092143/mediavault_images/AdobeStock_103587221_or1mfx.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Bali</h5>
+            <p class="card-text">
+              Bali è un'isola ricoperta da una fitta vegetazione tropicale,
+              ricca di baie incontaminate e bagnate da mare cristallino. L'isola
+              è anche ricca di cultura e di fascino antico, da visitare e
+              scoprire in ogni suo angolo, una meta imperdibile per chiunque ami
+              i viaggi in Asia!
+            </p>
+            <a href="#" class="btn btn-primary">Portami qui</a>
+          </div>
+        </div>
+
+        <div class="card col-sm-12 col-md-6 col-lg-3 p-0" style="width: 18rem">
+          <img
+            src="https://image.urlaubspiraten.de/1024/image/upload/v1603285391/mediavault_images/s3jxabzf01kzo2sxsnzr.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Amsterdam</h5>
+            <p class="card-text">
+              La capitale dei Paesi Bassi è una tappa imperdibile durante le
+              vostre vacanze in Olanda. Fondata nel Medioevo, si sviluppò nel
+              Seicento. Oggi è una città ricca di stimoli culturali, dove
+              trascorrere vivaci serate nei locali.
+            </p>
+            <a href="#" class="btn btn-primary">Portami qui</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="benvenuta-estate" class="mt-5 container ms-5">
+      <h3 class="">Benvenuta estate!</h3>
+      <div class="row m-0 justify-content-between gap-3">
+        <div class="card col-sm-6 col-md-4 col-lg-2 p-0">
+          <img
+            src="https://image.urlaubspiraten.de/1024/image/upload/v1603293335/mediavault_images/kpgd5r5ndko3tejyciwb.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Giza</h5>
+            <p class="card-text">
+              Circa 25 km a sud ovest del Cairo si trova la Necropoli di Giza,
+              famosa per ospitare le tre più famose piramidi egizie.
+            </p>
+            <a href="#" class="btn btn-primary">Portami qui</a>
+          </div>
+        </div>
+
+        <div class="card col-sm-6 col-md-4 col-lg-2 p-0">
+          <img
+            src="https://image.urlaubspiraten.de/1024/image/upload/v1603293335/mediavault_images/kpgd5r5ndko3tejyciwb.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Giza</h5>
+            <p class="card-text">
+              Circa 25 km a sud ovest del Cairo si trova la Necropoli di Giza,
+              famosa per ospitare le tre più famose piramidi egizie.
+            </p>
+            <a href="#" class="btn btn-primary">Portami qui</a>
+          </div>
+        </div>
+
+        <div class="card col-sm-6 col-md-4 col-lg-2 p-0">
+          <img
+            src="https://image.urlaubspiraten.de/1024/image/upload/v1603293335/mediavault_images/kpgd5r5ndko3tejyciwb.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Giza</h5>
+            <p class="card-text">
+              Circa 25 km a sud ovest del Cairo si trova la Necropoli di Giza,
+              famosa per ospitare le tre più famose piramidi egizie.
+            </p>
+            <a href="#" class="btn btn-primary">Portami qui</a>
+          </div>
+        </div>
+
+        <div class="card col-sm-6 col-md-4 col-lg-2 p-0">
+          <img
+            src="https://image.urlaubspiraten.de/1024/image/upload/v1638286821/Impressions%20and%20Other%20Assets/shutterstock_1959614719_itnqhr.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Zagabria</h5>
+            <p class="card-text">
+              La capitale della Croazia è spesso sottovalutata dai turisti, ma
+              in realtà questa città, situata al centro del paese.
+            </p>
+            <a href="#" class="btn btn-primary">Portami qui</a>
+          </div>
+        </div>
+
+        <div class="card col-sm-6 col-md-4 col-lg-2 p-0">
+          <img
+            src="https://image.urlaubspiraten.de/1024/image/upload/v1628092143/mediavault_images/AdobeStock_103587221_or1mfx.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Bali</h5>
+            <p class="card-text">
+              Bali è un'isola ricoperta da una fitta vegetazione tropicale,
+              ricca di baie incontaminate e bagnate da mare cristallino.
+            </p>
+            <a href="#" class="btn btn-primary">Portami qui</a>
+          </div>
+        </div>
+
+        <div class="card col-sm-6 col-md-4 col-lg-2 p-0">
+          <img
+            src="https://image.urlaubspiraten.de/1024/image/upload/v1603285391/mediavault_images/s3jxabzf01kzo2sxsnzr.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Amsterdam</h5>
+            <p class="card-text">
+              La capitale dei Paesi Bassi è una tappa imperdibile durante le
+              vostre vacanze in Olanda.
+            </p>
+            <a href="#" class="btn btn-primary">Portami qui</a>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
