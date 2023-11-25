@@ -7,3 +7,13 @@
 .logo {
     width: 50px;
 }
+
+#benvenuta-estate .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, z-index 0.3s ease-in-out;
+}
+
+#benvenuta-estate .card:hover {
+    transform: scale(1.05);
+    z-index: 1;
+}
