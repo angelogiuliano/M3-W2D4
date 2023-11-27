@@ -17,3 +17,8 @@
     transform: scale(1.05);
     z-index: 1;
 }
+
+#offerte-settimana div, #benvenuta-estate div, #last-minute div {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
